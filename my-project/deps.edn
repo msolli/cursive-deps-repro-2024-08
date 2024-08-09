@@ -1,0 +1,5 @@
+{:deps {}
+ :aliases
+ {:build {:deps       {io.github.clojure/tools.build {:git/tag "v0.10.3" :git/sha "15ead66"}
+                       my-dep/my-dep                 {:local/root "../my-dep"}}
+          :ns-default build}}}
